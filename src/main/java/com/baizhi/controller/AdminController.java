@@ -17,7 +17,12 @@ public class AdminController {
 
     @Autowired
     private AdminService adminService;
-
+    //hello world
+    //hello world
+    //hello world
+    //hello world
+    //hello world
+    
     @RequestMapping("login")
     public Map<String,Object> login(Admin admin, String inputCode, HttpServletRequest request){
         Map<String, Object> map = new HashMap<>();
